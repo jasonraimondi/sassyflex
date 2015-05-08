@@ -1,0 +1,57 @@
+$body-bg: $white !default;
+$base-border: $base-border-width $base-border-style $base-border-color !default;
+$global-radius: rem(4) !default;
+$base-border-color: $gainsboro !default;
+$color-1: $color-1 !default;
+
+label {
+  font-weight: 600;
+  margin-bottom: rem(16);
+
+  &.required::after {
+    content: "*";
+  }
+
+  abbr {
+    display: none;
+  }
+}
+
+#{$all-text-inputs},
+select,
+select[multiple=multiple] {
+  background-color: $body-bg;
+  border: $base-border;
+  border-radius: $global-radius;
+  box-sizing: border-box;
+  display: block;
+  margin: rem(4) 0 rem(16);
+  max-width: 100%;
+  padding: rem(10);
+  transition: all 0.5s ease;
+  width: 100%;
+
+  &:hover {
+    border-color: scale-color($base-border-color, $lightness: -5%);
+    outline: none;
+  }
+
+  &:focus {
+    border-color: $color-1;
+    outline: none;
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin: rem(4) rem(8) rem(16) rem(4);
+}
+
+input[type="file"] {
+  padding-bottom: rem(10);
+}

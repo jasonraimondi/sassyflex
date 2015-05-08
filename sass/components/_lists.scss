@@ -1,0 +1,20 @@
+$paragraph-line-height: 1.4 !default;
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+dl {
+  margin-bottom: (($paragraph-line-height * 1rem) / 2);
+
+  dt {
+    font-weight: bold;
+    margin-top: (($paragraph-line-height * 1rem) / 2);
+  }
+
+  dd {
+    margin: 0;
+  }
+}

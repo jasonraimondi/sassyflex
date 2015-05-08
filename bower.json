@@ -1,0 +1,27 @@
+{
+  "name": "sassyflex",
+  "version": "1.0.0",
+  "authors": [
+    "Jason Raimondi <jason@raimondi.us>"
+  ],
+  "description": "A Sass Based Style Boilerplate",
+  "main": "css/sassyflex.css",
+  "keywords": [
+    "sass",
+    "scss",
+    "flexbox",
+    "grid"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bourbon": "~4.2.1",
+    "neat": "~1.7.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
