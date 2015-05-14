@@ -1,8 +1,7 @@
-$container-width: rem(1200);
+$container-width: rem(1200) !default;
 $total-columns: 12 !default;
 $cell-gutter: rem(25) !default;
 $cell-padding: rem(15) !default;
-
 
 .container {
   max-width: $container-width !important;
