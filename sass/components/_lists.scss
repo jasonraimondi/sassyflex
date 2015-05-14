@@ -2,8 +2,7 @@ $paragraph-line-height: 1.4 !default;
 
 ul,
 ol {
-  margin: 0;
-  padding-left: 0;
+  padding-left: rem(20);
 }
 
 dl {
