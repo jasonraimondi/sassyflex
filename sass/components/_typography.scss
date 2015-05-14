@@ -1,9 +1,4 @@
-$body-bg: $white !default;
-$body-font-color: $jet !default;
-$body-font-family: $font-family-sans-serif !default;
-$body-font-weight: $font-weight-normal !default;
-$body-font-size: 100% !default;
-$body-font-style: normal !default;
+@import '../settings/global';
 
 $paragraph-font-family: inherit !default;
 $paragraph-font-weight: $font-weight-normal !default;

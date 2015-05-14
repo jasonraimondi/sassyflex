@@ -1,3 +1,5 @@
+@import 'colors';
+
 // GLOBAL
 $font-family-sans-serif: $helvetica !default;
 $font-family-serif: $georgia !default;
@@ -10,8 +12,8 @@ $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
 
-$body-bg: $white !default;
-$body-font-color: $jet !default;
+$body-bg: $smoke !default;
+$body-font-color: $oil !default;
 $body-font-family: $font-family-sans-serif !default;
 $body-font-weight: $font-weight-normal !default;
 $body-font-size: 100% !default;

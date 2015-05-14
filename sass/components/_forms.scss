@@ -1,7 +1,5 @@
-$body-bg: $white !default;
-$base-border: $base-border-width $base-border-style $base-border-color !default;
-$global-radius: rem(4) !default;
-$base-border-color: $gainsboro !default;
+@import '../settings/global';
+
 $color-1: $color-1 !default;
 
 label {

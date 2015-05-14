@@ -1,4 +1,4 @@
-$global-radius: rem(4) !default;
+@import '../settings/global';
 
 $button-bg-color: $color-1 !default;
 $button-bg-color-hover: scale-color($button-bg-color, $lightness: -25%) !default;
