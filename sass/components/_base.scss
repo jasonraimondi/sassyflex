@@ -1,3 +1,10 @@
+@import '../settings/global';
+
+html, body {
+	@include size(100%);
+	background-color: $body-bg;
+}
+
 img,
 picture {
   margin: 0;
