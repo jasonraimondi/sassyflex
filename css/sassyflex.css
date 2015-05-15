@@ -383,7 +383,7 @@ html {
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #EEEEEE; }
+  background-color: #F9F9F9; }
 
 img,
 picture {
@@ -394,7 +394,7 @@ picture {
   -ms-interpolation-mode: bicubic; }
 
 body {
-  background-color: #EEEEEE;
+  background-color: #F9F9F9;
   color: #333333;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 400;
@@ -512,8 +512,8 @@ label {
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
 select,
 select[multiple=multiple] {
-  background-color: #EEEEEE;
-  border: 0.0625rem solid #DDDDDD;
+  background-color: #F9F9F9;
+  border: 0.0625rem solid #333333;
   border-radius: 0.25rem;
   box-sizing: border-box;
   display: block;
@@ -526,7 +526,7 @@ select[multiple=multiple] {
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select:hover,
   select[multiple=multiple]:hover {
-    border-color: #d2d2d2;
+    border-color: #303030;
     outline: none; }
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select:focus,
