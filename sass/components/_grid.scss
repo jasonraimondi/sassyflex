@@ -28,13 +28,12 @@ $padding: rem(15) !default;
     flex-direction: column-reverse;
     flex-wrap: column-reverse;
   }
-  &:first-child {
-    margin-left: 0;
-  }
-  &:last-child {
-    margin-right: 0;
-  }
-
+  // &:first-child {
+  //   margin-left: 0;
+  // }
+  // &:last-child {
+  //   margin-right: 0;
+  // }
 }
 .flex {
   flex-grow: 1;
