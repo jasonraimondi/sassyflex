@@ -1,8 +1,21 @@
 @import '../settings/global';
 
+$container-width: upper-bound($medium-range) !default;
+
 html, body {
 	@include size(100%);
 	background-color: $body-bg;
+}
+
+.container {
+  max-width: $container-width !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 rem(15);
+
+  @media #{$xxlarge-up} {
+    padding: 0;
+  }
 }
 
 img,

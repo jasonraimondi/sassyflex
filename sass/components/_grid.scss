@@ -1,20 +1,9 @@
 @import '../settings/global';
 
-$container-width: upper-bound($xlarge-range) !default;
 $total-columns: 12 !default;
 $cell-gutter: rem(25) !default;
 $cell-padding: rem(15) !default;
 
-.container {
-  max-width: $container-width !important;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 rem(15);
-
-  @media #{$xxlarge-up} {
-    padding: 0;
-  }
-}
 .row {
   box-sizing: border-box;
   display: flex;
