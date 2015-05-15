@@ -4,9 +4,9 @@
 @import 'variables';
 
 // GLOBAL
-$font-family-sans-serif: $helvetica !default;
-$font-family-serif: $georgia !default;
-$font-family-monospace: $monospace !default;
+$font-family-sans-serif: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif !default;
+$font-family-serif: "Georgia", "Cambria", "Times New Roman", "Times", serif !default;
+$font-family-monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace !default;
 
 $global-radius: rem(4) !default;
 $global-rounded: rem(1000) !default;

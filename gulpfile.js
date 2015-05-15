@@ -17,9 +17,7 @@ gulp.task('styles', function() {
     .pipe(sass({
 		style: 'expanded',
 		includePaths : [
-           paths.BOWER + 'normalize-scss',
-	       paths.BOWER + 'bourbon/app/assets/stylesheets',
-	       paths.BOWER + 'neat/app/assets/stylesheets',
+           paths.BOWER + 'normalize-scss'
         ]
 	}).on('error', sass.logError))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
