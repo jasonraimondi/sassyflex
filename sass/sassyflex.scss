@@ -1,25 +1,10 @@
 @import 'normalize';
-@import 'bourbon';
-
-// We put our faith in gulp's autoprefixer
-$prefix-for-webkit:    false;
-$prefix-for-mozilla:   false;
-$prefix-for-microsoft: false;
-$prefix-for-opera:     false;
-$prefix-for-spec:      false;
-
-html,
-body {
-	@include size(100%);
-}
 
 @import 'settings/colors';
 @import 'settings/global';
 @import 'settings/functions';
 @import 'settings/media-queries';
 @import 'settings/variables';
-
-@import 'neat';
 
 @import 'components/base';
 @import 'components/typography';
