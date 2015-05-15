@@ -13,7 +13,7 @@ $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
 
-$body-bg: $smoke !default;
+$body-bg: $snow !default;
 $body-font-color: $oil !default;
 $body-font-family: $font-family-sans-serif !default;
 $body-font-weight: $font-weight-normal !default;
@@ -22,7 +22,7 @@ $body-font-style: normal !default;
 
 $base-border-width: rem(1) !default;
 $base-border-style: solid !default;
-$base-border-color: $gainsboro !default;
+$base-border-color: scale-color($body-font-color, $lightness: 25%) !default;
 $base-border: $base-border-width $base-border-style $base-border-color !default;
 
 $font-smoothing: antialiased !default;
