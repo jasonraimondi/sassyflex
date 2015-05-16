@@ -1,3 +1,5 @@
+$rem-base: 16px !default;
+
 @import 'functions';
 @import 'colors';
 @import 'media-queries';
@@ -19,7 +21,7 @@ $body-bg: $snow !default;
 $body-font-color: $oil !default;
 $body-font-family: $font-family-sans-serif !default;
 $body-font-weight: $font-weight-normal !default;
-$body-font-size: 100% !default;
+$body-font-size: rem(18) !default;
 $body-font-style: normal !default;
 
 $base-border-width: rem(1) !default;
@@ -28,3 +30,4 @@ $base-border-color: scale-color($body-font-color, $lightness: 25%) !default;
 $base-border: $base-border-width $base-border-style $base-border-color !default;
 
 $font-smoothing: antialiased !default;
+

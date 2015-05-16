@@ -2,8 +2,8 @@
 
 $paragraph-font-family: inherit !default;
 $paragraph-font-weight: $font-weight-normal !default;
-$paragraph-font-size: rem(16) !default;
-$paragraph-line-height: 1.4 !default;
+$paragraph-font-size: $body-font-size !default;
+$paragraph-line-height: 1.6 !default;
 $paragraph-margin-bottom: rem(20) !default;
 $paragraph-text-rendering: optimizeLegibility !default;
 
@@ -48,9 +48,12 @@ $hr-border-style: solid !default;
 $hr-border-color: $gainsboro !default;
 $hr-margin: rem(20) !default;
 
+html {
+  font-size: $rem-base;
+}
+
 body {
   font-feature-settings: "kern", "liga", "pnum";
-  background-color: $body-bg;
   color: $body-font-color;
   font-family: $body-font-family;
   font-weight: $body-font-weight;
