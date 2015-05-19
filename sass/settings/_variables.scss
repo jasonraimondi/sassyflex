@@ -1,14 +1,47 @@
-// // PAGE
-// $container-width: rem(1200);
-// $total-columns: 12 !default;
-// $gutter: rem(25) !default;
-// $padding: rem(15) !default;
+// // COLORS
+// $color-1						: tomato;
+// $color-2						: #339933;
+// $color-3						: blue;
 
+// $white       				: #FFFFFF;
+// $ghost       				: #FAFAFA;
+// $snow        				: #F9F9F9;
+// $vapor       				: #F6F6F6;
+// $white-smoke 				: #F5F5F5;
+// $silver      				: #EFEFEF;
+// $smoke       				: #EEEEEE;
+// $gainsboro   				: #DDDDDD;
+// $iron        				: #CCCCCC;
+// $base        				: #AAAAAA;
+// $aluminum    				: #999999;
+// $jumbo       				: #888888;
+// $monsoon     				: #777777;
+// $steel       				: #666666;
+// $charcoal    				: #555555;
+// $tuatara     				: #444444;
+// $oil         				: #333333;
+// $jet         				: #222222;
+// $black       				: #000000;
+// $transparent 	 			: rgba(0, 0, 0, 0);
+
+// $success-color			: green;
+// $warning-color			: yellow;
+// $alert-color				: red;
+
+// // MEDIA QUERIES
+// $small-range						: (0px, 639px);
+// $medium-range						: (640px, 1023px);
+// $large-range						: (1024px, 1439px);
+// $xlarge-range						: (1440px, 1649px);
+// $xxlarge-range					: (1650px);
+
+// // BASE
+// $container-width: upper-bound($medium-range);
 
 // // GLOBAL
-// $font-family-sans-serif: $georgia;
-// $font-family-serif: $georgia;
-// $font-family-monospace: $monospace;
+// $font-family-sans-serif: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+// $font-family-serif: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+// $font-family-monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
 
 // $global-radius: rem(4);
 // $global-rounded: rem(1000);
@@ -17,22 +50,33 @@
 // $font-weight-normal: 400;
 // $font-weight-bold: 700;
 
-// $body-bg: $white;
-// $body-font-color: $jet;
+// $body-bg: $snow;
+// $body-font-color: $oil;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
-// $body-font-size: 100%;
+// $body-font-size: rem(18);
 // $body-font-style: normal;
 
 // $base-border-width: rem(1);
 // $base-border-style: solid;
-// $base-border-color: $gainsboro;
+// $base-border-color: scale-color($body-font-color, $lightness: 25%);
 // $base-border: $base-border-width $base-border-style $base-border-color;
 
 // $font-smoothing: antialiased;
 
+// // GRID
+// $total-columns: 12;
+// $gutter: rem(25);
+// $padding: rem(15);
 
 // // TYPOGRAPHY
+// $paragraph-font-family: inherit;
+// $paragraph-font-weight: $font-weight-normal;
+// $paragraph-font-size: $body-font-size;
+// $paragraph-line-height: 1.6;
+// $paragraph-margin-bottom: rem(20);
+// $paragraph-text-rendering: optimizeLegibility;
+
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
@@ -42,29 +86,22 @@
 // $header-bottom-margin: rem(8);
 // $header-text-rendering: optimizeLegibility;
 
-// $h1-font-size: rem(44);
-// $h2-font-size: rem(36);
-// $h3-font-size: rem(29);
-// $h4-font-size: rem(24);
-// $h5-font-size: rem(18);
-// $h6-font-size: 1rem;
+// $h1-font-size: rem(48);
+// $h2-font-size: rem(40);
+// $h3-font-size: rem(34);
+// $h4-font-size: rem(28);
+// $h5-font-size: rem(24);
+// $h6-font-size: $body-font-size;
 
 // $h1-font-reduction: rem(10);
-// $h2-font-reduction: rem(10);
-// $h3-font-reduction: rem(5);
-// $h4-font-reduction: rem(5);
-// $h5-font-reduction: 0;
+// $h2-font-reduction: rem(8);
+// $h3-font-reduction: rem(6);
+// $h4-font-reduction: rem(4);
+// $h5-font-reduction: rem(2);
 // $h6-font-reduction: 0;
 
 // $small-font-size: 60%;
 // $small-font-color: scale-color($header-font-color, $lightness: 25%);
-
-// $paragraph-font-family: inherit;
-// $paragraph-font-weight: $font-weight-normal;
-// $paragraph-font-size: rem(16);
-// $paragraph-line-height: 1.4;
-// $paragraph-margin-bottom: rem(20);
-// $paragraph-text-rendering: optimizeLegibility;
 
 // $code-color: scale-color($body-font-color, $lightness: 60%);
 // $code-font-family: $font-family-monospace;
@@ -84,7 +121,5 @@
 // // BUTTONS
 // $button-bg-color: $color-1;
 // $button-bg-color-hover: scale-color($button-bg-color, $lightness: -25%);
-// $button-border-color: $color-2;
-// $button-border-color-hover: scale-color($button-border-color, $lightness: -25%);
 // $button-font-color: $white;
 // $button-font-color-hover: $button-font-color;
