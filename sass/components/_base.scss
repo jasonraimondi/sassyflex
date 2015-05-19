@@ -2,10 +2,16 @@
 
 $container-width: upper-bound($medium-range) !default;
 
-html, body {
+html {
+  background-color: $body-bg;
+  font-size: $rem-base;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
 	height: 100%;
   width: 100%;
-	background-color: $body-bg;
 }
 
 .container {

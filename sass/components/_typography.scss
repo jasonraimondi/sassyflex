@@ -49,10 +49,6 @@ $hr-border-style: solid !default;
 $hr-border-color: $gainsboro !default;
 $hr-margin: rem(20) !default;
 
-html {
-  font-size: $rem-base;
-}
-
 body {
   font-feature-settings: "kern", "liga", "pnum";
   color: $body-font-color;
