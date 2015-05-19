@@ -1,6 +1,6 @@
-$color-1						: tomato !default;
+$color-1						: #ff6347 !default;
 $color-2						: #339933 !default;
-$color-3						: blue !default;
+$color-3						: #ffe847 !default;
 
 $white       				: #FFFFFF !default;
 $ghost       				: #FAFAFA !default;
@@ -23,6 +23,6 @@ $jet         				: #222222 !default;
 $black       				: #000000 !default;
 $transparent 	 			: rgba(0, 0, 0, 0) !default;
 
-$success-color			: green !default;
-$warning-color			: yellow !default;
-$alert-color				: red !default;
+$success-color			: $color-2 !default;
+$warning-color			: $color-3 !default;
+$alert-color				: $color-1 !default;
