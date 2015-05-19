@@ -30,7 +30,6 @@ $h4-font-reduction: rem(4) !default;
 $h5-font-reduction: rem(2) !default;
 $h6-font-reduction: 0 !default;
 
-
 $small-font-size: 60% !default;
 $small-font-color: scale-color($header-font-color, $lightness: 25%) !default;
 
@@ -139,4 +138,10 @@ hr {
   border-right: none;
   border-top: none;
   margin: $hr-margin 0;
+}
+
+@each $alignment in center, left, right {
+  .text-#{$alignment} {
+    text-align: $alignment;
+  }
 }
