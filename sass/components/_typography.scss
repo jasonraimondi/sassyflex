@@ -102,7 +102,7 @@ p {
 a {
   color: $anchor-font-color;
   text-decoration: $anchor-text-decoration;
-  transition: all 0.5s ease;
+  transition: color 0.5s ease;
 
   &:active,
   &:focus,
