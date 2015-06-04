@@ -17,6 +17,7 @@ body {
 .container {
   max-width: $container-width;
   margin: 0 auto;
+  overflow: auto;
   padding: 0 rem(15);
 
   @media #{$xxlarge-up} {
