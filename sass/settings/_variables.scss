@@ -1,7 +1,7 @@
 // // COLORS
-// $color-1						: tomato;
+// $color-1						: #ff6347;
 // $color-2						: #339933;
-// $color-3						: blue;
+// $color-3						: #ffe847;
 
 // $white       				: #FFFFFF;
 // $ghost       				: #FAFAFA;
@@ -24,9 +24,9 @@
 // $black       				: #000000;
 // $transparent 	 			: rgba(0, 0, 0, 0);
 
-// $success-color			: green;
-// $warning-color			: yellow;
-// $alert-color				: red;
+// $success-color			: $color-2;
+// $warning-color			: $color-3;
+// $alert-color				: $color-1;
 
 // // MEDIA QUERIES
 // $small-range						: (0px, 639px);
