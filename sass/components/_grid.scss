@@ -112,21 +112,21 @@ $padding: rem(15) !default;
   }
 }
 
-// TODO: extend this nonsense instead of 4 separate includes
-@include columnFallbackSizing($total-columns);
-@include columnSizing('small',$total-columns);
-@media #{$medium-up} {
-  @include columnSizing('medium',$total-columns);
-}
-@media #{$large-up} {
-  @include columnSizing('large',$total-columns);
-}
-@media #{$xlarge-up} {
-  @include columnSizing('xlarge',$total-columns);
-}
-@media #{$xxlarge-up} {
-  @include columnSizing('xxlarge',$total-columns);
-}
+// // TODO: extend this nonsense instead of 4 separate includes
+// @include columnFallbackSizing($total-columns);
+// @include columnSizing('small',$total-columns);
+// @media #{$medium-up} {
+//   @include columnSizing('medium',$total-columns);
+// }
+// @media #{$large-up} {
+//   @include columnSizing('large',$total-columns);
+// }
+// @media #{$xlarge-up} {
+//   @include columnSizing('xlarge',$total-columns);
+// }
+// @media #{$xxlarge-up} {
+//   @include columnSizing('xxlarge',$total-columns);
+// }
 
 .start {
   justify-content: flex-start;
