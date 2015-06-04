@@ -1,6 +1,7 @@
 @import '../settings/global';
 
 $container-width: upper-bound($medium-range) !default;
+$sm-container-width: upper-bound($small-range) !default;
 
 html {
   background-color: $body-bg;
@@ -25,6 +26,16 @@ body {
   }
 }
 
+.sm-container {
+  max-width: $sm-container-width;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 rem(15);
+
+  @media #{$xxlarge-up} {
+    padding: 0;
+  }
+}
 img,
 picture {
   margin: 0;
