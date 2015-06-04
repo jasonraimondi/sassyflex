@@ -26,6 +26,7 @@ select[multiple=multiple] {
   max-width: 100%;
   padding: rem(7.5);
   transition: border-color 0.5s ease;
+  transition: color 0.5s ease;
   width: 100%;
 
   &:hover {

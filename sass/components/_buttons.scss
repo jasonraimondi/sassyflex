@@ -21,7 +21,8 @@ input[type="submit"],
   padding: rem(12) rem(16);
   text-decoration: none;
   vertical-align: middle;
-  transition: all 0.5s ease;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
   -webkit-font-smoothing: antialiased;
 
   &:hover,
