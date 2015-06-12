@@ -22,11 +22,11 @@
 // $oil         				: #333333;
 // $jet         				: #222222;
 // $black       				: #000000;
-// $transparent 	 			: rgba(0, 0, 0, 0);
+// $transparent 	 			: rgba($white, 0);
 
-// $success-color			: $color-2;
-// $warning-color			: $color-3;
-// $alert-color				: $color-1;
+// $success-color			: #339933;
+// $warning-color			: #ffe847;
+// $alert-color				: #ff6347;
 
 // // MEDIA QUERIES
 // $small-range						: (0px, 639px);
@@ -34,9 +34,6 @@
 // $large-range						: (1024px, 1439px);
 // $xlarge-range						: (1440px, 1649px);
 // $xxlarge-range					: (1650px);
-
-// // BASE
-// $container-width: upper-bound($medium-range);
 
 // // GLOBAL
 // $font-family-sans-serif: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -63,6 +60,9 @@
 // $base-border: $base-border-width $base-border-style $base-border-color;
 
 // $font-smoothing: antialiased;
+
+// // BASE
+// $container-width: upper-bound($medium-range);
 
 // // GRID
 // $total-columns: 12;
