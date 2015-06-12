@@ -2,23 +2,22 @@
 
 .sassy-form {
 
-  label {
-    font-weight: 600;
-    margin-bottom: rem(16);
-
-    &.required::after {
-      content: "*";
-    }
-
-    abbr {
-      display: none;
-    }
-  }
-
-  input,
-  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="week"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"],
   select,
-  select[multiple=multiple] {
+  textarea {
     background-color: $body-bg;
     border: $base-border;
     border-radius: $global-radius;
@@ -40,12 +39,56 @@
       border-color: $color-1;
       outline: none;
     }
+
+    &[disabled] {
+      cursor: not-allowed;
+      // background-color: $base;
+      // color: $white;
+    }
+
+  }
+
+  label {
+    font-weight: 600;
+    margin-bottom: rem(16);
+
+    &.required::after {
+      content: "*";
+    }
+
+    abbr {
+      display: none;
+    }
+  }
+
+  select {
+    // height: 2.25em;
+    border: $base-border;
+    background-color: $body-bg;
+  }
+  select[multiple] {
+    height: auto;
+  }
+  label {
+    margin: rem(4) 0 rem(16);
+  }
+  fieldset {
+    margin: 0;
+    padding: rem(4) 0 rem(16);
+    border: 0;
+  }
+  legend {
+    display: block;
+    width: 100%;
+    // padding: 0.3em 0;
+    // margin-bottom: 0.3em;
+    // color: #333;
+    border-bottom: $base-border;
   }
 
   textarea {
     resize: vertical;
   }
-
 
   input[type="checkbox"],
   input[type="radio"] {
