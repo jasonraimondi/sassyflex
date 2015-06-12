@@ -1,56 +1,60 @@
 @import '../settings/global';
 
-label {
-  font-weight: 600;
-  margin-bottom: rem(16);
+.sassy-form {
 
-  &.required::after {
-    content: "*";
+  label {
+    font-weight: 600;
+    margin-bottom: rem(16);
+
+    &.required::after {
+      content: "*";
+    }
+
+    abbr {
+      display: none;
+    }
   }
 
-  abbr {
-    display: none;
+  input,
+  textarea,
+  select,
+  select[multiple=multiple] {
+    background-color: $body-bg;
+    border: $base-border;
+    border-radius: $global-radius;
+    box-sizing: border-box;
+    display: block;
+    margin: rem(4) 0 rem(16);
+    max-width: 100%;
+    padding: rem(7.5);
+    transition: border-color 0.5s ease;
+    transition: color 0.5s ease;
+    width: 100%;
+
+    &:hover {
+      border-color: scale-color($base-border-color, $lightness: -5%);
+      outline: none;
+    }
+
+    &:focus {
+      border-color: $color-1;
+      outline: none;
+    }
   }
-}
 
-input,
-textarea,
-select,
-select[multiple=multiple] {
-  background-color: $body-bg;
-  border: $base-border;
-  border-radius: $global-radius;
-  box-sizing: border-box;
-  display: block;
-  margin: rem(4) 0 rem(16);
-  max-width: 100%;
-  padding: rem(7.5);
-  transition: border-color 0.5s ease;
-  transition: color 0.5s ease;
-  width: 100%;
-
-  &:hover {
-    border-color: scale-color($base-border-color, $lightness: -5%);
-    outline: none;
+  textarea {
+    resize: vertical;
   }
 
-  &:focus {
-    border-color: $color-1;
-    outline: none;
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    display: inline;
+    margin: rem(4) rem(8) rem(16) rem(4);
   }
-}
 
-textarea {
-  resize: vertical;
-}
+  input[type="file"] {
+    padding-bottom: rem(10);
+  }
 
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline;
-  margin: rem(4) rem(8) rem(16) rem(4);
-}
-
-input[type="file"] {
-  padding-bottom: rem(10);
 }
